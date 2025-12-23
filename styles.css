@@ -53,6 +53,10 @@ header .tagline {
     font-size: 1.4rem;
     opacity: 0.9;
     font-style: normal;
+    text-decoration: underline;
+    text-decoration-color: #FF0606;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 5px;
 }
 
 header .meta-info {
