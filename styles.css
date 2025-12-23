@@ -576,6 +576,7 @@ table tr:hover {
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
     transition: all 0.3s;
     border-top: 4px solid #FF0606;
+    text-align: center;
 }
 
 .result-level-card:hover {
@@ -585,26 +586,32 @@ table tr:hover {
 
 .result-level-card h4 {
     color: #000000;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     margin-bottom: 1rem;
     font-weight: 700;
+    line-height: 1.4;
 }
 
 .result-level-card .level-tag {
     display: inline-block;
     background: #FF0606;
     color: white;
-    padding: 0.4rem 1rem;
-    border-radius: 20px;
-    font-size: 0.85rem;
+    padding: 0.5rem 1.2rem;
+    border-radius: 25px;
+    font-size: 0.9rem;
     font-weight: 600;
     margin-bottom: 1rem;
 }
 
+.result-level-card .level-tag-gray {
+    background: #6c757d;
+}
+
 .result-level-card p {
     color: #555;
-    font-size: 1.05rem;
+    font-size: 1rem;
     line-height: 1.7;
+    margin-top: 1rem;
 }
 
 /* Contact Section */
