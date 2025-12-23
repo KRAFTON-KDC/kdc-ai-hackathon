@@ -619,12 +619,11 @@ table tr:hover {
     margin-right: 0.5rem;
 }
 
-.result-level-card .level-number-light-red {
+.result-level-card .level-tag-light-red {
     background: #ff9999;
-    color: white;
 }
 
-.result-level-card .level-number-gray {
+.result-level-card .level-tag-gray {
     background: #6c757d;
 }
 
